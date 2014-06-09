@@ -67,7 +67,7 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	display: inline-block;
     	padding-left: 5px;
     	padding-top: 7px;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 700;
 	text-decoration: none;
 	color: #797061;
@@ -81,6 +81,7 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	transition: background-color 0.5s ease;
 }
 .navnow{
+	width:108px !important;
 	color: white !important;
 	background-color: #52a139;
 }
@@ -106,24 +107,24 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	width:140px;
 	height:74px;
 	position:absolute;
-	margin-top:54px;
-	margin-left: 860px;
+	top:54px;
+	right: 25px;
 }
 .strip{
-	width: 1024px;
+	width: 980px;
 	height: 30px;
 	position:absolute;
 	margin-top:153px;
 	z-index:1;
 }
 .hero{
-	width: 1024px;
+	width: 980px;
 	height: 325px;
 	position: relative;
 }
 .hero > img{
-	width: 1024px;
-	height: 325px;
+	width: 100%;
+	height: auto;
 }
 .hero > .badge{
 	width: 125px;
@@ -143,20 +144,20 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	width: 100%;
 	height: 50px;
 	position: absolute;
-	bottom: 0;
+	bottom: 13px;
 	background-color: black;
 	opacity: 0.4;
 }
 .hero > .stripdown{
-	width: 1024px;
+	width: 980px;
 	height: 30px;
 	position:absolute;
-	bottom:0;
+	bottom:13px;
 	z-index:1;
 }
 
 .content{
-	width: 1024px;
+	width: 980px;
 	height:182px;
 	position:relative;
 }
@@ -199,7 +200,7 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	color:#52a139;
 }
 .about{
-	width:540px;
+	width:500px;
 	height:290px;
 	position:absolute;
 	right:0;
@@ -222,7 +223,7 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	padding-right: 30px;
 }
 .about > .content{
-	width:520px;
+	width:480px;
 	top:20px;
 	padding-top: 20px;
 	font-weight: 500;
