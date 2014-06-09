@@ -35,14 +35,14 @@
 body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 
 .container{
-	width: 1024px;
+	width: 980px;
 	height: 660px;
 	background-color: #efefef;
 	position: relative;
 	margin: 0 auto;
 }
 .header{
-	width: 1000px;
+	width: 980px;
 	height: 153px;
 }
 .navigation > ul {
