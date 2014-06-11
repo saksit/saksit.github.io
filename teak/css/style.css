@@ -38,8 +38,12 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	width: 980px;
 	height: 660px;
 	background-color: #efefef;
-	position: relative;
-	margin: 0 auto;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 .header{
 	width: 980px;
