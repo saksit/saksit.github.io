@@ -28,7 +28,6 @@
     font-weight: 900;
     font-style: normal;
 }
-@media screen and (device-aspect-ratio: 40/71) { 
 
 * { margin: 0; padding: 0; border: 0; }
 body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
@@ -232,6 +231,4 @@ body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 	height:15px;
 	font-style:normal;
 	font-weight: 900;
-}
-
 }
