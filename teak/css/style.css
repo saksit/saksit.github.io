@@ -287,9 +287,9 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 .second > em{color:#38859d;font-style:normal;}
 .third > em{color:#a3a428;font-style:normal;}
 .service{
-	width:23%;
-	height:150px;
-	padding: 0 8px;
+	width:24%;
+	height:140px;
+	padding-left: 8px;
 	margin-top: 30px;
 	float:right;
 	display:inline-block;
