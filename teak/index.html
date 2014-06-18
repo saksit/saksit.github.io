@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media='screen and (device-aspect-ratio: 40/71)' href="css/ios-style.css">
   <link rel="stylesheet" media='screen and (device-aspect-ratio: 3/4)' href="css/ios-style.css">
+  <link rel="stylesheet" href="slider/css/example.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="slider/js/jquery.slides.min.js"></script>
 
 </head>
 <body>
@@ -32,22 +35,48 @@
           <img class="strip" src='images/strip.png'>
        </div>
        <div class="hero">
-            <img class="badge" src='images/HumanInno.png'>
-            <img src='images/home.png'>
+            <img class="badge" src='images/HumanApproach.png'>
+            <div id="slides">
+              <img src="images/home.png" />
+              <img src="images/home1.png" />
+              <img src="images/home2.png" />
+              <img src="images/home3.png" />
+            </div>
             <div class="blackbar"></div>
         </div>
-        <div class="content">
+        <div class="content home">
             <div class="homewrap">
-              <div class="homehighlight">WHY</div>
-              <div class="homehighlight green">WE ARE</div>
-              <div class="homehighlight green">DIFFERENT</div>
-              <div class="hometext">We specialize in <em>Human-Centered Innovation</em>, which<br>
-              seeks solutions to business challenges based on<br>
-              consumers’ values, needs, desires, motivations, beliefs,<br>
-              and behaviour.</div>
+              <div class="homehighlight">WHO</div>
+              <div class="homehighlight green">ARE</div>
+              <div class="homehighlight green">WE</div>
+              <div class="hometext"><em>Teak</em> identifies opportunities and insights <br>
+                that help companies refine products and services,<br>
+                grow business & explore new opportunities <br>in the Asian and global market. </div>
             </div>
         </div>
   </div>
-
+   <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 980,
+        height: 315,
+        play: {
+          active: true,
+          auto: true,
+          interval: 5000,
+          swap: true,
+          effect: "fade"
+        },
+        effect: {
+      
+      fade: {
+        speed: 500,
+          // [number] Speed in milliseconds of the fade animation.
+        crossfade: true
+          // [boolean] Cross-fade the transition.
+      }}
+      });
+    });
+  </script>
 </body>
 </html>

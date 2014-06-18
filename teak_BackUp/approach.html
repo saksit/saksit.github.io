@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media='screen and (device-aspect-ratio: 40/71)' href="css/ios-style.css">
   <link rel="stylesheet" media='screen and (device-aspect-ratio: 3/4)' href="css/ios-style.css">
-  <link rel="stylesheet" href="slider/css/example.css">
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="slider/js/jquery.slides.min.js"></script>
+  <link href="slider/js-image-slider.css" rel="stylesheet" type="text/css" />
+  <script src="slider/js-image-slider.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -34,13 +33,19 @@
           <!-- <img class="strip" src='images/strip.png'> -->
        </div>
        <div class="hero">
-          <div id="slides">
-            <img src="images/slide1.png" />
-            <img src="images/slide2.png" />
+          <div id="sliderFrame">
+            <div id="slider">
+                <a>
+                    <img src="images/slide1.png" />
+                </a>
+                <a>
+                    <img src="images/slide2.png" />
+                </a>
+            </div>
           </div>
           <img class="approachStrip" src="images/stripApproach.png"/>
         </div>
-        <div class="contentxxx">
+        <div class="content">
           <div class="approach third">We<em> discover new business opportunities</em> beyond a company’s 
             current offerings and build knowledge about markets and consumers.</div>
           <div class="approach second">We <em>help companies adapt to changes </em>in consumer values, society, 
@@ -49,29 +54,6 @@
             current products or services, and identify opportunities to improve and iterate.</div>  
         </div>
   </div>
-  
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 980,
-        height: 304,
-        play: {
-          active: true,
-          auto: true,
-          interval: 5000,
-          swap: true,
-          effect: "fade"
-        },
-        effect: {
-      
-      fade: {
-        speed: 500,
-          // [number] Speed in milliseconds of the fade animation.
-        crossfade: true
-          // [boolean] Cross-fade the transition.
-      }}
-      });
-    });
-  </script>
+
 </body>
 </html>

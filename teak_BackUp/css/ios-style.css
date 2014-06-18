@@ -29,24 +29,15 @@
     font-style: normal;
 }
 
-
-
-
 * { margin: 0; padding: 0; border: 0; }
-body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
+body{background-color: black; font-family: 'MuseoSlab', arial, sans-serif; }
 
 .container{
-	width: 100%;
-	height: 100%;
-	min-width: 980px;
-	min-height: 660px;
+	width: 980px;
+	height: 660px;
 	background-color: #efefef;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+	position: relative;
+	margin: 0 auto;
 }
 .header{
 	width: 980px;
@@ -118,15 +109,15 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	right: 25px;
 }
 .strip{
-	width: 100%;
+	width: 980px;
 	height: 30px;
 	position:absolute;
 	margin-top:153px;
 	z-index:99;
 }
 .hero{
-	width: 100%;
-	height: auto;
+	width: 980px;
+	height: 325px;
 	position: relative;
 }
 .hero > img{
@@ -145,48 +136,41 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	position: absolute;
 	right:25px;
 	margin-top: 35px;
-	z-index: 99;
 }
 .hero > .badgeabout{
 	width: 125px;
 	height: 125px;
 	position: absolute;
-	left:30%;
+	left:310px;
 	margin-top: 35px;
 }
 .hero > .blackbar{
 	width: 100%;
 	height: 50px;
 	position: absolute;
-	bottom: 24px;
+	bottom: 13px;
 	background-color: black;
 	opacity: 0.4;
-	z-index: 99;
 }
 .hero > .stripdown{
-	width: 100%;
+	width: 980px;
 	height: 30px;
 	position:absolute;
-	bottom:4px;
+	bottom:13px;
 	z-index:1;
 }
 
 .content{
-	float:right;
 	width: 980px;
 	height:182px;
 	position:relative;
-}
-.home{
-	margin-top:-20px !important;
-
 }
 .content > .homewrap{
 	width: 560px;
 	height: 110px;
 	position: absolute;
 	padding-left: 20px;
-	top: 30px;
+	top: 35px;
 	right:0;
 	border-left:  1px dashed #a9a9a9;
 }
@@ -223,7 +207,7 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	width:500px;
 	height:290px;
 	position:absolute;
-	right:20px;
+	right:0;
 	top:34px;
 	font-size: 15px;
 	color:#625640;
@@ -231,8 +215,6 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 .about > .title{
 	font-style:normal;
 	font-weight: 700;
-	width:480px;
-	float:right;
 }
 .about > .title > em{
 	width: 200px;
@@ -256,23 +238,13 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	font-style:normal;
 	font-weight: 900;
 }
-.about > .content > strong{
-	font-size: 15px;
-	height:15px;
-	font-style:normal;
-	font-weight: 900;
-	color:#52a139;
-}
 .approachStrip{
-	width:100%;
-	height:21px !important;
 	position:absolute;
-	bottom:2px;
+	bottom:0;
 }
-
 .approach{
-	width:21%;
-	height:140px;
+	width:200px;
+	height:150px;
 	padding: 0 6px;
 	margin-top: 30px;
 	float:right;
@@ -287,7 +259,7 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 .second > em{color:#38859d;font-style:normal;}
 .third > em{color:#a3a428;font-style:normal;}
 .service{
-	width:23%;
+	width:228px;
 	height:150px;
 	padding: 0 8px;
 	margin-top: 30px;
@@ -299,18 +271,12 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	font-weight: 500;
 	font-style:normal;
 } 
-.special{
-	width:100% !important;
-	margin:0 auto;
-}
 .first-noborder{
 	border-style: none !important;
 }
 .team{
 	height:507px!important;
-	width: 100%;
 	background-image: url(../images/teamBG.png) ;
-	background-repeat: repeat-y;
 	overflow-y:scroll; 
 	overflow-x:hidden;
 	position:absolute;
