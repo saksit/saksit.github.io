@@ -43,7 +43,6 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	background-color: #efefef;
 	position: absolute;
 	top:0;
-	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
@@ -151,8 +150,8 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	width: 125px;
 	height: 125px;
 	position: absolute;
-	left:30%;
-	margin-top: 35px;
+	right:56%;
+	bottom:20px;
 }
 .hero > .blackbar{
 	width: 100%;
@@ -173,10 +172,12 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 
 .content{
 	float:right;
-	width: 980px;
+	min-width: 980px;
+	width:100%;
 	height:182px;
 	position:relative;
 }
+
 .home{
 	margin-top:-20px !important;
 
@@ -223,7 +224,7 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	width:500px;
 	height:290px;
 	position:absolute;
-	right:20px;
+	left:48%;
 	top:34px;
 	font-size: 15px;
 	color:#625640;
@@ -244,19 +245,31 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	padding-left: 3px;
 	padding-right: 30px;
 }
-.about > .content{
+.about > .about-content{
 	width:480px;
-	top:20px;
+	top:40px;
+	position:absolute;
 	padding-top: 20px;
 	font-weight: 500;
+	margin-left: 18px;
 	border-top: 1px dashed #a9a9a9;
 }
-.about > .content > em{
+.about > .about-content > em{
 	height:15px;
 	font-style:normal;
 	font-weight: 900;
 }
-.about > .content > strong{
+.about > .about-content a{
+	height:15px;
+	font-style:normal;
+	font-weight: 900;
+	text-decoration: none;
+	color:#625640;
+}
+
+
+
+.about > .about-content > strong{
 	font-size: 15px;
 	height:15px;
 	font-style:normal;
@@ -268,15 +281,18 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 	height:21px !important;
 	position:absolute;
 	bottom:2px;
+	z-index: 99;
 }
 
 .approach{
-	width:21%;
+	width:100%;
 	height:140px;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
 	padding: 0 6px;
 	margin-top: 30px;
 	float:right;
-	display:inline-block;
 	border-left: 1px dashed #a9a9a9;
 	font-size: 15px;
 	color:#625640;
@@ -286,26 +302,48 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 .first > em{color:#a64d36;font-style:normal;}
 .second > em{color:#38859d;font-style:normal;}
 .third > em{color:#a3a428;font-style:normal;}
-.service{
-	width:24%;
+.service, .special2{
+	width:100%;
 	height:140px;
 	padding-left: 8px;
-	margin-top: 30px;
 	float:right;
-	display:inline-block;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
 	border-left: 1px dashed #a9a9a9;
 	font-size: 15px;
 	color:#625640;
 	font-weight: 500;
 	font-style:normal;
 } 
-.special{
+.special, .special2{
 	width:100% !important;
 	margin:0 auto;
 }
-.first-noborder{
+.special2{
 	border-style: none !important;
+	padding:0px !important;
 }
+.special table{
+	margin-top:30px;
+	width:100%;
+	height:auto;
+}
+.special2 table{
+
+	width:100%;
+	height:auto;
+}
+.special td{
+	width:25% ;
+}
+.special2 td{
+	width:22%;
+}
+.special2 td:first-child{
+	width:34%;
+}
+
 .team{
 	height:507px!important;
 	width: 100%;
