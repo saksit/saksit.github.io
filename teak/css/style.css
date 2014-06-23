@@ -180,10 +180,12 @@ body{background-color:#efefef; font-family: 'MuseoSlab', arial, sans-serif; }
 
 .home{
 	margin-top:-20px !important;
-
+}
+.contact{
+	margin-top:0px !important;
 }
 .content > .homewrap{
-	width: 560px;
+	width: 506px;
 	height: 110px;
 	position: absolute;
 	padding-left: 20px;
