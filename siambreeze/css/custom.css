@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@font-face {
+    font-family: 'Quark';
+    src: url('../fonts/quark/quark-light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quark/quark-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/quark/quark-light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/quark/quark-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/quark/quark-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Quark';
+    src: url('../fonts/quark/quark-bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/quark/quark-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/quark/quark-bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/quark/quark-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/quark/quark-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 1000px;
+    height:100%;
+    font-size: 18px;
+    font-family: "Quark","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    color: white;
+}
+header{
+    width: 100%;
+    height: 320px;
+    display: block;
+    position: relative;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+}
+.header-wrapper{
+    width: 800px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    box-sizing: content-box;
+    background-color: rgba(0,0,0,0.5);
+    font-family: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header-wrapper img{
+    display: inline-block;
+    height: 100%;
+}
+.header-container{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align:top;
+}
+.language-switcher{
+    height: 40px;
+    display: block;
+    font-size: 14px !important;
+}
+.language-switcher a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.page-title{
+    margin-top: 20px;
+    display: block;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+}
+.body-wrapper{
+    width: 100%;
+    min-height: 800px;
+    height: 100%;
+    padding-bottom: 200px;
+    display: block;
+    position: relative;
+    background-repeat: repeat !important;
+}
+.body-container{
+    width: 800px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 70px;
+    background-color: #262627;
+}
+ul.menu {
+    padding: 0;
+    display: block;
+    margin-bottom: 50px;
+    font-family: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+ul.menu a, a.mail {
+    text-decoration: none;
+    color: white;
+}
+ul.menu li {
+    width: 120px;
+    padding: 8px 0 8px 8px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+ul.menu li.this{
+    background-color: #85624c;
+    border-bottom: 2px solid white;
+}
+ul.menu li:hover {
+    background-color: #a59b92;
+    border-bottom: 2px solid white;
+}
+.content{
+    margin-left: 10px;
+}
+section{
+    width: 90%;
+    padding-bottom: 20px;
+}
+.section-container{
+    display: inline-block;
+}
+.section-title, .contact{
+    font-family: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.section-detail-1{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 100px;
+}
+.section-img{
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+hr{
+    margin: 10px 0;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    height: 30px;
+}
+                                                                                                                              <div class="section-detail-1">นวยไทย+ยาหม่อง<br> นวยไทย+นวดออย<br> นวยไทย+ประคบร้อน</div>
+                                                                                                                                                                                                                               </div>
+                                                                                                                                                                                                                                 <img class="section-img
