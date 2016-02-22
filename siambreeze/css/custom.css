@@ -163,7 +163,7 @@ tr{
     height: 30px;
 }
 .current{
-    opacity: 0.5;
+    color: dimgrey;
 }
 .fix-en-p{
     margin-right: 60px;
