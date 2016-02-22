@@ -18,7 +18,6 @@
     font-weight: bold;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -31,6 +30,9 @@ html{
 }
 body{
     color: white;
+}
+h1{
+    font-weight: normal !important;
 }
 header{
     width: 100%;
@@ -114,7 +116,7 @@ ul.menu li {
     cursor: pointer;
 }
 ul.menu li.this{
-    background-color: #85624c;
+    background-color: #796E67;
     border-bottom: 2px solid white;
 }
 ul.menu li:hover {
@@ -140,6 +142,11 @@ section{
     vertical-align: text-top;
     margin-right: 100px;
 }
+.section-detail-2{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 20px;
+}
 .section-img{
     display: inline-block;
     float: right;
@@ -155,6 +162,14 @@ tr{
     border-bottom: 1px solid rgba(255,255,255,0.2);
     height: 30px;
 }
-                                                                                                                              <div class="section-detail-1">นวยไทย+ยาหม่อง<br> นวยไทย+นวดออย<br> นวยไทย+ประคบร้อน</div>
+.current{
+    opacity: 0.5;
+}
+.fix-en-p{
+    margin-right: 60px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+                                                                                                                       <div class="section-detail-1">นวยไทย+ยาหม่อง<br> นวยไทย+นวดออย<br> นวยไทย+ประคบร้อน</div>
                                                                                                                                                                                                                                </div>
                                                                                                                                                                                                                                  <img class="section-img
