@@ -115,12 +115,48 @@ ul.menu li {
     border-bottom: 2px solid transparent;
     cursor: pointer;
 }
-ul.menu li.this{
-    background-color: #796E67;
+ul.menu li.this-1{
+    background-color: #7b7168;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-2{
+    background-color: #6e5d3f;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-3{
+    background-color: #3a575e;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-4{
+    background-color: #8d4523;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-5{
+    background-color: #991e25;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-1:hover{
+    background-color: #7b7168;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-2:hover{
+    background-color: #6e5d3f;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-3:hover{
+    background-color: #3a575e;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-4:hover{
+    background-color: #8d4523;
+    border-bottom: 2px solid white;
+}
+ul.menu li.this-5:hover{
+    background-color: #991e25;
     border-bottom: 2px solid white;
 }
 ul.menu li:hover {
-    background-color: #a59b92;
+    background-color: #333334;
     border-bottom: 2px solid white;
 }
 .content{
@@ -163,7 +199,7 @@ tr{
     height: 30px;
 }
 .current{
-    color: dimgrey;
+    color: #979797 !important;
 }
 .fix-en-p{
     margin-right: 60px;
