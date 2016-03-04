@@ -199,13 +199,15 @@ tr{
     height: 30px;
 }
 .current{
+<<<<<<< HEAD
     color: #979797 !important;
+=======
+    color: #7e7e7e !important;
+>>>>>>> origin/master
 }
 .fix-en-p{
     margin-right: 60px;
     text-align: justify;
     text-justify: inter-word;
 }
-                                                                                                                       <div class="section-detail-1">นวยไทย+ยาหม่อง<br> นวยไทย+นวดออย<br> นวยไทย+ประคบร้อน</div>
-                                                                                                                                                                                                                               </div>
-                                                                                                                                                                                                                                 <img class="section-img
+ 
